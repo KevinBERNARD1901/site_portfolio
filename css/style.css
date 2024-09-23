@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Style General */
+
+* {
+  font-family: "Fira Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: 800;
+    text-align: center;
+}
+
+.mail{
+    font-weight: 200;
+    text-align: center;
+    /* font-style: italic; */
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+
+b {
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+a.mon_profil {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+a.portfolio {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+a.contact {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* Style portfolio */
+
+div.portfolio {
+    margin: 70px auto;
+    width: 60%;
+}
+
+div.portfolio div {
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    width: 33%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin: 5px 5px;
+}
+
+/* Style contact */
+
+h2.contact {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+div.contact {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 60%;
+    font-size: 2em;
+}
+
+div.contact div {
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+
+label {
+    font-weight: 300;
+    margin: 10px 0;
+    width: 100%;
+} 
+    
+input, textarea {
+    display: block;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    font-size: 0.6em;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin: 10px calc(100% - 125px);
+}
+
+/* Style mon_profil */
+
+div.mon_profil {
+    margin: 50px auto;
+    max-width: 600px;
+    width: 60%;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+div.mon_profil p {
+    margin-bottom: 40px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+div.mon_profil p b {
+    font-weight: 700;
+}
