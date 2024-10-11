@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "oMqq7O7XOuIBpqy1P",
+          });
+      })();
+    </script>
+    <script src="js/contact.js"></script>
     <title>Contact</title>
   </head>
   <body>
@@ -18,7 +29,7 @@
       <div class="barre_mouvante"></div>
     </nav>
     <h2 class="contact">Une envie à faire passer ?</h2>
-    <form action="">
+    <form>
       <div class="contact">
         <div>
           <label for="message">Message</label>
@@ -32,7 +43,7 @@
           <label for="mail">Mail</label>
           <input type="text" name="mail" id="mail" placeholder="Mon mail" required>
         </div>
-        <button>ENVOYER</button>
+        <button type="button" onclick="send_mail()">ENVOYER</button>
       </div>
     </form>
     <script src="js/script.js"></script>
