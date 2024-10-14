@@ -81,11 +81,29 @@ div.portfolio div {
     display: flex;
 }
 
-img {
+.media {
     width: 33%;
     aspect-ratio: 1/1;
     object-fit: cover;
     margin: 5px 5px;
+    cursor: pointer;
+}
+
+.media_hover {
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 33%;
+    background-color: grey;
+    left: 118px;
+    bottom: 502px;
+    font-size: 1em;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 5px;
+    color: white;
+    cursor: pointer;
 }
 
 .block_zoom {
